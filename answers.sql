@@ -10,4 +10,8 @@ GRANT INSERT
 ON salesdb.*
 TO 'Bob'@'localhost';
 
+# 4. Write an SQL query to change the password for the user bob to 'P$55!23'
+ALTER USER 'Bob'@'localhost'IDENTIFIED BY'P$55!23';
+
+
 
